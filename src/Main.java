@@ -50,7 +50,7 @@ public class Main {
 
             String progress = "";
 
-            for(int o = 0; o < procValue; ++o)
+            for(int o = 0; o < procValue; o++)
                 progress += "=";
 
             for(int o = 20 - procValue; o >= 0; o--)
